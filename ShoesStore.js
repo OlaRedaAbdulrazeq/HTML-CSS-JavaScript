@@ -30,8 +30,6 @@ let price = ["7,900 EGP","7,900 EGP","7,900 EGP",
 ];
 
 
-
-
  for (let i=0 ; i< 7;i++){
    let mainContainer = document.querySelector(".container");
    let container1 = document.createElement("div");
@@ -45,7 +43,7 @@ let price = ["7,900 EGP","7,900 EGP","7,900 EGP",
    let txt1=document.createTextNode(Name[i])
    let p = document.createElement("p");
    let txt2=document.createTextNode(price[i])
- if ( i=== 4 || i===5 || i===6){
+ if ( i > 4){
       mainContainer = document.querySelector(".container2");
  }
    
